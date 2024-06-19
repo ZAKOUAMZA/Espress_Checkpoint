@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/styles.css")
+    block head
+
+  body
+    header
+      nav
+        ul
+          li: a(href="/") Accueil
+          li: a(href="/services") Nos services
+          li: a(href="/contact") Contactez-nous
+    block content

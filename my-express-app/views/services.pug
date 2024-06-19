@@ -1,0 +1,35 @@
+extends layout
+
+block head
+  link(rel='stylesheet', href='/services.css')
+
+block content
+  // Services Header
+  .services-header
+    h1= message
+    p Découvrez les services que nous offrons.
+
+  // Services Section
+  .services-list
+    .service
+      img(src="/images/9153_kefw_1963.png", alt="Service 1")
+      h2 Moto Classique KEFW 
+      p La Moto Classique KEFW 1963 est une merveille d'ingénierie vintage, alliant élégance et performance.
+
+    .service
+      img(src="/img/unnamed.png", alt="Service 2")
+      h2 Réparation et entretien
+      p Expertise dans la réparation mécanique et l'entretien préventif pour assurer la performance optimale de votre moto.
+
+    .service
+      img(src="/images/lxs-125-lexmoto.png", alt="Service 3")
+      h2 Moto Lexmoto LXS 125
+      p La Moto Lexmoto LXS 125 est idéale pour les débutants et les trajets urbains. Compacte et maniable.
+
+    .service
+      img(src="/img/VISUEL-DAFY-2.png", alt="Service 4")
+      h2 Accessoires moto
+      p Gamme complète d'accessoires et d'équipements pour personnaliser et améliorer votre expérience de conduite.
+  // Footer Section
+  footer
+    p © 2024 Notre Entreprise. Tous droits réservés.
